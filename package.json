@@ -1,0 +1,12 @@
+{
+  "name": "thrust-cat",
+  "version": "1.0.0",
+  "description": "Pipe html into its own thrust browser window.",
+  "bin": "cmd.js",
+  "author": "Sean West",
+  "license": "ISC",
+  "dependencies": {
+    "concat-stream": "^1.4.7",
+    "node-thrust": "git://github.com/seanewest/node-thrust"
+  }
+}
