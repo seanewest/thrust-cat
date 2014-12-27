@@ -17,6 +17,19 @@ Specifying the width and height is optional.
 npm install seanewest/thrust-cat
 ```
 
+## API
+```js
+var tcat = require('thrust-cat');
+var width = 300;
+var height = 300;
+tcat("<h1>hello</h1>", width, height, function(err) {
+  if (err) {
+    console.err(err);
+    process.exit(1);
+  }
+})
+```
+
 ## Pipeline Friends
 
 Pipe your JS through an html wrapper with [jstohtml](https://github.com/seanewest/jstohtml)

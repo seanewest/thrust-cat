@@ -26,6 +26,7 @@ module.exports = function(data, width, height, cb) {
       })
       win.show();
       win.focus();
+      if (cb) cb(null);
     }, {quiet: true});
   })
 }
