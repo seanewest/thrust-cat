@@ -4,10 +4,14 @@
   "description": "Pipe html into its own thrust browser window.",
   "bin": "cmd.js",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/seanewest/thrust-cat.git"
+  },
   "author": "Sean West",
   "license": "ISC",
   "dependencies": {
     "concat-stream": "^1.4.7",
-    "node-thrust": "git://github.com/seanewest/node-thrust"
+    "node-thrust": "git://github.com/seanewest/node-thrust#6c0a89c65ea4bf0e60e37dd4a3743c57326054f8"
   }
 }
