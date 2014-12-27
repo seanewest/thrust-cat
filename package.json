@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Pipe html into its own thrust browser window.",
   "bin": "cmd.js",
+  "main": "index.js",
   "author": "Sean West",
   "license": "ISC",
   "dependencies": {
