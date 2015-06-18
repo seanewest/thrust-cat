@@ -1,6 +1,6 @@
 # Thrust-Cat
 
-Pipe html into its own thrust browser window.
+Pipe html into its own [thrust](https://github.com/breach/thrust) browser window.
 
 ```
 echo "<h1>hello</h1>" | thrust-cat 640 480
